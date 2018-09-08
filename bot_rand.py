@@ -30,7 +30,7 @@ def talk_to_me(bot, update):
 
 
 def main():
-    mybot=Updater("698357850:AAGw6kPTBLXQT8_OF3oHusyLBFP4WNWJumc", request_kwargs=PROXY)
+    mybot=Updater("", request_kwargs=PROXY)
 
 
     dp = mybot.dispatcher
